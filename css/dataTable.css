@@ -1,0 +1,101 @@
+main{
+    overflow: hidden;
+    padding: 0px 105px;
+    width: 100%;
+}
+main .left{
+    padding-right: 20px;
+    width: 50%;
+    padding-bottom: 60px; 
+}
+main .left .leftFirst_table{
+    border: 1px solid #ccc;
+    padding: 20px 20px 40px;
+    width: 100%;
+    overflow-x: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow-y: hidden;  
+}
+main .left .leftFirst_table table{
+    border: 1px solid #ddd;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+main .left p{
+    line-height: 50px;
+    background: #f5f5f5;
+    text-align: left;
+    padding-left: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #ddd;
+    border-bottom: 0px;
+    margin-top: 45px;
+}
+main .left .leftFirst_table table thead {
+    font-weight: 500;
+    
+}
+main .left .leftFirst_table table tr {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+main .left .leftFirst_table table tr th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+main .left .leftFirst_table table tr td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+/*=================================leftTwo_table==============================*/
+main .left .leftTwo_table{
+    border: 1px solid #ccc;
+    padding: 20px 20px 40px;
+    width: 100%;
+    overflow-x: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow-y: hidden;  
+}
+main .left .leftTwo_table table{
+    border: 1px solid #ddd;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+main .left .leftTwo_table table thead {
+    font-weight: 500;
+    
+}
+main .left .leftTwo_table table tr {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+main .left .leftTwo_table table tr th{
+    padding: 8px;
+}
+main .left .leftTwo_table table tr td{
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+}
+
+
+@media screen and (max-width: 990px){
+    main .left{
+        width: 100%;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    main .right{
+        width: 100%;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 760px){
+    main{
+        padding: 10px 20px;
+    }
+}

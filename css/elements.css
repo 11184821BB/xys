@@ -1,0 +1,536 @@
+/*===================================oneBars====================================*/
+#right{
+    padding-right: 0px;
+}
+.oneBars{
+    padding: 10px 105px;
+    overflow: hidden;
+}
+.oneBars .left{
+    padding-right: 10px;
+    overflow: hidden;
+    width: 50%;
+}
+.oneBars .left .leftOne{
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 35px;
+}
+.oneBars .left .leftOne .bars{
+    line-height: 50px;
+    background: #f5f5f5;
+    padding-left: 15px;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.oneBars .left .leftOne .chart{
+    padding: 0px 15px 25px;
+    overflow: hidden;
+}
+.oneBars .left .leftOne .chart p{
+    height: 10px;
+    border-top: 1px solid #e4e4e4;
+    background: #f5f5f5;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.oneBars .left .leftOne .chart p span{
+    display: block;
+    height: 100%;    
+}
+.oneBars .left .leftOne .chart p:nth-of-type(1) span{
+    width: 48%;
+    background: #5cb85c;
+}
+.oneBars .left .leftOne .chart p:nth-of-type(2) span{
+    width: 28%;
+    background: #5bc0de;
+}
+.oneBars .left .leftOne .chart p:nth-of-type(3) span{
+    width: 78%;
+    background: #f0ad4e;
+}
+.oneBars .left .leftOne .chart p:nth-of-type(4) span{
+    width: 60%;
+    background: #d9534f;
+}
+/*======================================twoBars===============================*/
+.twoBars{
+    padding:0px 105px 24px;
+    overflow: hidden;
+}
+.twoBars .left{
+    padding-right: 10px;
+    overflow: hidden;
+    width: 50%;
+}
+.twoBars .left .leftOne{
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 35px;
+}
+.bars{
+    line-height: 50px;
+    background: #f5f5f5;
+    padding-left: 15px;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.twoBars .left .leftOne .chart{
+    padding: 0px 15px 25px;
+    overflow: hidden;
+}
+.twoBars .left .leftOne .chart p{
+    height: 10px;
+    border-top: 1px solid #e4e4e4;
+    background: #f5f5f5;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+.twoBars .left .leftOne .chart p span{
+    display: block;
+    height: 100%;    
+}
+.twoBars .left:nth-of-type(1) .leftOne .chart p span{
+    width: 78%;
+    background: #337ab7;
+}
+.twoBars .left:nth-of-type(2) .leftOne .chart p span:nth-of-type(1){
+    width: 38%;
+    background: #5cb85c;
+}
+.twoBars .left:nth-of-type(2) .leftOne .chart p span:nth-of-type(2){
+    width: 25%;
+    background: #f0ad4e;
+}
+.twoBars .left:nth-of-type(2) .leftOne .chart p span:nth-of-type(3){
+    width: 18%;
+    background: #d9534f;
+}
+/*===============================panel=============================*/
+.panel{
+    padding: 10px 95px;
+    overflow: hidden;
+}
+.panel .onePanel{
+    padding:0 10px;
+    overflow: hidden;
+    width: 33.333333333333333333%;
+    
+}
+.panel .panelBorder{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+.panel .foot{
+    line-height: 50px;
+    background: #f5f5f5;
+    padding-left: 15px;
+    border-top: 1px solid #ddd;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.panel .panelText{
+    line-height: 37px;
+    padding:20px 15px;
+}
+/*====================================groupBox============================*/
+.groupBox{
+    padding: 38px 105px;
+    overflow: hidden;
+}
+.groupBox .group{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.groupBox .group .itemBox{
+    padding: 0px 13px 30px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.groupBox .group .itemBox .fitem{
+    line-height: 38px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    margin: 6px 0;
+    padding-left: 15px;
+    border-radius: 4px;
+}
+.groupBox .group .itemBox .itemTwo{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.groupBox .group .itemBox .itemTwo p{
+    line-height: 38px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    padding-left: 15px;
+}
+.groupBox .group .itemBox .itemTwo div{
+    line-height: 35px;
+    padding: 15px;
+}
+.big{
+    font-size: 14px;
+}
+/*======================================tabs================================*/
+.tabs{
+    padding: 0px 105px;
+    overflow: hidden;
+}
+.tabs .left{
+    padding-right: 10px;
+    overflow: hidden;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.tabs .left .tabsOne{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding-bottom: 35px;
+}
+.tabs .left .tabsOne .set{
+    /* padding:0px 15px 20px; */
+    overflow: hidden;
+}
+/* .tabs .left .tabsOne .set ul{
+    line-height: 40px;
+} */
+.tabs .left .tabsOne .set ul li{
+    padding:15px 15px 5px;
+}
+.tabs .left .tabsOne p:nth-of-type(2){
+    line-height: 25px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.tabs .left .tabsOne p:nth-of-type(3){
+    line-height: 25px;
+    padding-left: 15px;
+}
+/*===================================button==================================*/
+.button{
+    padding: 10px 105px;
+    overflow: hidden;
+}
+.button .left{
+    padding-right: 10px;
+    overflow: hidden;
+    width: 60%;
+}
+.button .example{
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.button .example .default{
+    padding: 15px 15px;
+}
+.button .example .default .buttonP{
+    padding: 8px 0;
+    font-size: 14px;
+}
+.button .example .default span{
+    display: inline-block;
+    color: #fff;
+}
+.button .example .default .db span{
+    padding: 10px 18px;
+}
+.button .example .default .db span:nth-of-type(1){
+    color: #333;
+    border: 1px solid #ccc;
+}
+.button .example .default .db span:nth-of-type(2){
+    background: #337ab7;
+    border: 1px solid #2e6da4;
+}
+.button .example .default .db span:nth-of-type(3){
+    background: #d9534f;
+    border: 1px solid #d43f3a;
+}
+.button .example .default .db span:nth-of-type(4){
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+}
+.button .example .default .db span:nth-of-type(5){
+    background: #5bc0de;
+    border: 1px solid #46b8da;
+}
+.button .example .default .db span:nth-of-type(6){
+    background: #f0ad4e;
+    border: 1px solid #eea236;
+}
+.button .example .default .mb span{
+    padding: 4px 8px;
+}
+.button .example .default .mb span:nth-of-type(1){
+    color: #333;
+    border: 1px solid #ccc;
+}
+.button .example .default .mb span:nth-of-type(2){
+    background: #337ab7;
+    border: 1px solid #2e6da4;
+}
+.button .example .default .mb span:nth-of-type(3){
+    background: #d9534f;
+    border: 1px solid #d43f3a;
+}
+.button .example .default .mb span:nth-of-type(4){
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+}
+.button .example .default .mb span:nth-of-type(5){
+    background: #5bc0de;
+    border: 1px solid #46b8da;
+}
+.button .example .default .mb span:nth-of-type(6){
+    background: #f0ad4e;
+    border: 1px solid #eea236;
+}
+.button .example .default .sb span{
+    padding: 8px 12px;
+}
+.button .example .default .sb span:nth-of-type(1){
+    color: #333;
+    border: 1px solid #ccc;
+}
+.button .example .default .sb span:nth-of-type(2){
+    background: #337ab7;
+    border: 1px solid #2e6da4;
+}
+.button .example .default .sb span:nth-of-type(3){
+    background: #d9534f;
+    border: 1px solid #d43f3a;
+}
+.button .example .default .sb span:nth-of-type(4){
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+}
+.button .example .default .sb span:nth-of-type(5){
+    background: #5bc0de;
+    border: 1px solid #46b8da;
+}
+.button .example .default .sb span:nth-of-type(6){
+    background: #f0ad4e;
+    border: 1px solid #eea236;
+}
+.button .example .default .lb span{
+    padding: 14px 18px;
+}
+.button .example .default .lb span:nth-of-type(1){
+    color: #333;
+    border: 1px solid #ccc;
+}
+.button .example .default .lb span:nth-of-type(2){
+    background: #337ab7;
+    border: 1px solid #2e6da4;
+}
+.button .example .default .lb span:nth-of-type(3){
+    background: #d9534f;
+    border: 1px solid #d43f3a;
+}
+.button .example .default .lb span:nth-of-type(4){
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+}
+.button .example .default .lb span:nth-of-type(5){
+    background: #5bc0de;
+    border: 1px solid #46b8da;
+}
+.button .example .default .lb span:nth-of-type(6){
+    background: #f0ad4e;
+    border: 1px solid #eea236;
+}
+.button .right{
+    overflow: hidden;
+    width: 40%;
+}
+.button .right .example .default span{
+    padding: 8px 12px;
+}
+/*==================================alert=====================================*/
+.alert{
+    padding: 30px 105px;
+    overflow: hidden;
+}
+.alert .left{
+    padding-right: 10px;
+    overflow: hidden;
+    width: 50%;
+}
+.alert .left .leftOne{
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.alert .left .leftOne .click{
+    padding: 15px;
+}
+.alert .left .leftOne .click span{
+    display: block;
+    width: 240px;
+    height: 44px;
+    background: #337ab7;
+    border: 1px solid #2e6da4;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 44px;
+}
+.alert .right{
+    overflow: hidden;
+    width: 50%;
+    line-height: 38px;
+    border: 1px solid #bce8f1 ;
+    background: #d9edf7;
+    padding: 20px 20px;
+    color: #31708f;
+    border-radius: 4px;
+}
+.alert .right span{
+    color: #31708f;
+    font-weight: 600;
+}
+/*=========================================usage===========================*/
+.usage{
+    padding: 0px 105px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.usage .left{
+    padding-right: 10px;
+    overflow: hidden;
+    width: 50%;
+}
+.usage .left .text{
+    padding: 15px 15px;
+    border: 1px solid #faebcc;
+    background: #fcf8e3;
+    border-radius: 4px;
+}
+.usage .text p{
+    line-height: 30px;
+    color: #8a6d3b;
+}
+.usage .text p span{
+    font-style: italic;
+}
+.usage .text p:nth-of-type(2){
+    color: #337abb;
+}
+.usage .text p:nth-of-type(4){
+    margin-top: 20px;
+}
+.usage .left .text .person{
+    display: block;
+    width: 51px;
+    height: 50px;
+    background: url(../image/person.png) no-repeat;
+}
+.usage .right{
+    overflow: hidden;
+    width: 50%;
+}
+.usage .right .text{
+    padding: 15px 15px;
+    border: 1px solid #ebccd1;
+    background: #f2dede;
+    border-radius: 4px;
+}
+.usage .right .text .person{
+    display: block;
+    width: 37px;
+    height: 65px;
+    background: url(../image/sd.png) no-repeat;
+}
+
+
+@media screen and (max-width: 990px){
+    .oneBars .left{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .twoBars .left{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .tabs .left{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .button .left{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .button .right{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .alert .left{
+        width: 100%;
+        padding-right: 0px;  
+    }
+    .alert .right{
+        width: 100%;
+        margin-top: 30px;  
+    }
+    .usage .left{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .usage .right{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 782px){
+    .panel .onePanel{
+        width: 100%;
+        padding-right: 0px;
+        margin-top: 30px;
+        padding-left: 0px;
+    }
+    .panel{
+        padding: 0px 105px;
+    }
+}
+@media screen and (max-width: 760px){
+    .oneBars{
+        padding: 10px 20px;
+    }
+    .twoBars{
+        padding:0px 20px 10px;
+    }
+    .panel{
+        padding: 10px 20px;
+    }
+    .groupBox{
+        padding: 30px 20px;
+    }
+    .tabs{
+        padding: 0px 20px;
+    }
+    .button{
+        padding: 0px 20px;
+    }
+    .alert{
+        padding: 0px 20px;
+    }
+    .alert .left{
+        margin-top: 30px;
+    }
+    .usage{
+        padding: 0px 20px; 
+        margin-top: 30px;
+    }
+    .usage .right{
+       margin: 30px 0px;
+    }
+}

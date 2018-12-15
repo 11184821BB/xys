@@ -1,0 +1,386 @@
+
+/*===================================text============================*/
+#text{
+    line-height: 60px;
+    border: 1px solid #d6e9c6;
+    background: #dff0d8;
+    color: #44783d;
+    margin: 40px 105px 20px;
+    padding-left: 14px;
+}
+@media screen and (max-width: 1030px){
+    #text{
+        line-height: 30px;
+    }
+}
+/*========================================icon===============================*/
+#icon{
+    padding: 0px 90px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#icon div{
+    width: 25%;
+    height: 172px;
+    padding: 0 15px;;
+    margin-top: 19px;
+    margin-bottom: 19px; 
+}
+#icon div:last-child{
+    margin-right: 0px;
+}
+#icon div span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #c36464;
+    padding-top: 25px;
+}
+#icon div span p:nth-of-type(1){
+    width: 75px;
+    height: 75px;
+    margin: 0px auto;
+}
+#icon div:nth-of-type(1) span p:nth-of-type(1){
+    background: url(../image/span1.png) no-repeat;
+    background-size: center;   
+}
+#icon div:nth-of-type(1) span{
+    background: #b9b739;
+} 
+#icon div span p:nth-of-type(2){
+    width: 80%;
+    height: 2px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+#icon div:nth-of-type(1) span p:nth-of-type(2){
+    background: url(../image/s1.png) no-repeat;
+    background-size:100% 100%; 
+}
+#icon div:nth-of-type(2) span p:nth-of-type(2){
+    background: url(../image/s2.png) no-repeat;
+    background-size:100% 100%;
+}
+#icon div:nth-of-type(3) span p:nth-of-type(2){
+    background: url(../image/s3.png) no-repeat;
+    background-size:100% 100%;
+}
+#icon div:nth-of-type(4) span p:nth-of-type(2){
+    background: url(../image/s4.png) no-repeat;
+    background-size:100% 100%;
+}
+#icon div span p:nth-of-type(3){
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+#icon div:nth-of-type(2) span p:nth-of-type(1){
+    background: url(../image/span2.png) no-repeat;
+    background-size: center;   
+}
+#icon div:nth-of-type(2) span {
+    background: #f94c4c;
+}
+
+#icon div:nth-of-type(3) span p:nth-of-type(1){
+    background: url(../image/span3.png) no-repeat;
+    background-size: center;   
+}
+#icon div:nth-of-type(3) span {
+    background: #119c7e;
+}
+
+#icon div:nth-of-type(4) span p:nth-of-type(1){
+    background: url(../image/span4.png) no-repeat;
+    background-size: center;   
+}
+#icon div:nth-of-type(4) span {
+    background: #b739b9;
+}
+@media screen and (max-width: 900px){
+    #icon div{
+        width: 50%;
+    }
+}
+/*====================================main===============================*/
+main{
+    padding: 10px 105px;
+    overflow: hidden;
+}
+main .left{
+    padding-right: 10px;
+    width: 50%;
+    background: #fff;
+    padding-bottom: 20px;
+}
+main .left .list{
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+main .left .list .top{
+    position: relative;
+}
+main .left .list .top p{
+    background: #f5f5f5;
+    height: 48px;
+    padding-left: 13px;
+    line-height: 48px; 
+}
+main .left .list .top span{
+    display: block;
+    width: 35px;
+    height: 22px;
+    background: url(../image/a1.png);
+    position: absolute;
+    top: 12px;
+    right: 17px;
+}
+main .left .list ul{
+    padding: 0 15px;
+    overflow: hidden;
+}
+main .left .list ul li p{
+    padding: 32px 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-left: 60px;
+    position: relative;
+}
+main .left .list ul li:nth-last-of-type(1) p{
+    border-bottom: 0;
+}
+main .left .list ul li p span:nth-of-type(1){
+    display: block;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+main .left .list ul li:nth-of-type(1) p span:nth-of-type(1){
+    background: url(../image/b1.png);
+}
+main .left .list ul li:nth-of-type(2) p span:nth-of-type(1){
+    background: url(../image/b2.png);
+}
+main .left .list ul li:nth-of-type(3) p span:nth-of-type(1){
+    background: url(../image/b3.png);
+}
+main .left .list ul li:nth-of-type(4) p span:nth-of-type(1){
+    background: url(../image/b4.png);
+}
+main .left .list ul li p span:nth-of-type(2){
+    margin-left: 5px;
+    padding: 2px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #fff;
+    font-weight: 1000;
+}
+main .left .list ul li:nth-of-type(1) p span:nth-of-type(2){
+    background: #f0ad4e;
+}
+main .left .list ul li:nth-of-type(2) p span:nth-of-type(2){
+    background: #5bc0de;
+}
+main .left .list ul li:nth-of-type(3) p span:nth-of-type(2){
+    background: #5cb85c;
+}
+main .left .list ul li:nth-of-type(4) p span:nth-of-type(2){
+    background: #5cb85c;
+}
+main .left .list .bottom{
+    height: 53px;
+    padding: 8px 13px;
+    background: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+main .left .list .bottom p{
+    height: 30px;
+    border: 1px solid #ccc;
+    margin-top: 3px;
+    text-align: center;
+    line-height: 30px;
+    background: #fff;
+}
+main .left .logo{
+    border: 1px solid #faebcc;
+    background: #fcf8e3;
+    padding: 15px 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+main .left .logo .span{
+    padding-left: 37px;
+}
+main .left .logo .span span{
+    display: inline-block;
+}
+main .left .logo .span span:nth-of-type(1){
+    width: 102px;
+    height: 34px;
+    background: url(../image/c1.png) no-repeat;
+}
+main .left .logo .span span:nth-of-type(2){
+    width: 90px;
+    height: 34px;
+    background: url(../image/c2.png) no-repeat;
+}
+main .left .logo .span span:nth-of-type(3){
+    width: 89px;
+    height: 34px;
+    background: url(../image/c3.png) no-repeat;
+}
+main .left .logo .span span:nth-of-type(4){
+    width: 97px;
+    height: 34px;
+    background: url(../image/c4.png) no-repeat;
+}
+/*============================table===========================*/
+main .left .bigTable{
+    margin-top: 30px;
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 5px;
+}
+main .left .bigTable table{
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+main .left .bigTable table thead {
+    font-weight: 500;
+    
+}
+main .left .bigTable table tr {
+    border: 1px solid #ddd;
+}
+main .left .bigTable table tr th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+main .left .bigTable table tr td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+/*=============================right========================*/
+main .right{
+    width: 50%;
+    overflow: hidden;
+}
+main .right .project{
+    padding: 23px 14px;
+    background: #f2dede;
+    color: #b0445a;
+    border: 1px solid #ebccd1;
+    border-radius: 4px;
+    line-height: 30px;
+}
+main .right .line{
+    border: 1px solid #eee;
+    margin-top: 20px;
+    width: 100%;
+}
+main .right .message{
+    border-radius: 4px;
+    border: 1px solid #d6e9c6;
+    margin-top: 18px;
+    overflow: hidden;
+    /* padding-bottom: 20px; */
+}
+main .right .message p{
+    padding: 25px 0;
+    padding-left: 15px;
+    background: #dff0d8;
+    color: #3c763d;
+}
+main .right .message .inputBox{
+    padding: 0 15px;
+}
+main .right .message .inputBox dl{
+    margin-top: 6px;
+}
+main .right .message .inputBox dl dt{
+    line-height: 42px;
+    font-weight: 1000;
+}
+main .right .message .inputBox dl dd input{
+    width: 100%;
+    height: 31px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+main .right .message .inputBox dl dd textarea{
+    height: 200px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+main .right .message .twoMess{
+    padding: 20px 15px;
+}
+main .right .message .twoMess span{
+    display: inline-block;
+    width: 135px;
+    height: 33px;
+    color: #fff;
+    line-height: 33px;
+    text-align: center;
+}
+main .right .message .twoMess span:nth-of-type(1){
+    background: #f0ad4e;
+}
+main .right .message .twoMess span:nth-of-type(2){
+    background: #5cb85c;
+}
+main .right .message .last{
+    padding: 10px 15px;
+    line-height: 50px;
+    border-top: 1px solid #ccc;
+}
+main .right .message .last span{
+    font-weight: 1000;
+}
+
+
+
+@media screen and (max-width: 990px){
+    main .left{
+        width: 100%;
+        padding-right: 0px;
+    }
+    main .left .logo .span{
+        padding-left: 127px;
+    }
+    main .right{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 870px){
+    main .left .logo .span{
+        padding-left: 37px;
+    }
+    
+}
+
+@media screen and (max-width: 760px){
+    #text{
+        margin: 40px 22px 20px;
+    }
+    #icon{
+        padding: 0px 6px;
+    }
+    main{
+        padding: 10px 20px;
+    }
+    main .right .message .last{
+        line-height: 25px;
+    }
+    
+}

@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*=========================reset================*/
+html,body{height:100%;}
+body,h1,h2,h3,h4,h5,h6,p,a,img,ul,li,ol,dl,dt,dd,input{ padding:0; margin:0}
+ul,ol{ list-style:none;}
+input{ outline:none;}
+img{ display:block; border:0;}
+
+body{ font-size:12px; color:#333; font-family:"微软雅黑"; background:#fff}
+*{box-sizing: border-box;}
+a{ text-decoration:none; color:#444;}
+/*========================public================*/
+/* .w{ width:1252px; margin:0 auto} */
+.l{ float:left;}
+.r{ float:right}
+ 
+
+/*=================================header==========================*/
+header{
+    background: #f0677c;
+    padding-right: 100px;
+}
+header p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: right;
+}
+/*====================================banner===========================*/
+#banner{
+    height: 132px;
+    background: #c36464;
+    padding-left: 100px;
+    padding-top: 44px;
+    position: relative;
+}
+#banner a{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+}
+#banner a:nth-of-type(1){
+    
+    font-weight: 1000;
+}
+#banner a:nth-of-type(2){
+    padding-left: 36px;
+}
+#banner span:nth-of-type(1){
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: url(../image/banner.png) no-repeat;
+    position: absolute;
+    left: 238px;
+    top: 50px;
+}
+#banner span:nth-of-type(2){
+    display: none;
+    width: 44px;
+    height: 34px;
+    background: url(../image/hs.png) no-repeat;
+    position: absolute;
+    right: 66px;
+    top: 28px;
+}
+/*==========================================nav=================================*/
+nav{
+    height: 40px;
+    background: #3d3d3d;
+    padding-right: 105px;
+}
+nav ul li{
+    line-height: 40px;
+}
+nav ul li a{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 10px;
+}
+nav ul li a.first{
+    background: #c36464;
+}
+nav ul li a:hover{
+    background: #c36464;  
+}
+/*======================================Dashboard===============================*/
+#Dashboard{
+    height: 62px;
+    line-height: 62px;
+    margin-top: 30px;
+    color: #f0677c;
+    font-size: 16px;
+    margin: 0 105px;
+    border-bottom: 3px solid #f0677c;
+    font-weight: 700;
+}
+
+/*====================footer========================*/
+footer{
+    background: #c36464;
+    padding-left: 100px;
+    width: 100%;
+}
+footer p{
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: left;
+    padding: 15px 0;
+}
+
+@media screen and (max-width: 760px){
+    header p{
+        font-size: 12px;
+    }
+    nav{
+        display: none;
+    }
+    #banner{
+        height: 172px;
+    }
+    #Dashboard{
+        margin: 0 30px;
+    }
+    #banner span:nth-of-type(2){
+        display: block;
+    }
+}
+@media screen and (max-width: 520px){
+    footer p{
+        line-height: 25px;
+    }
+}
+
+
+

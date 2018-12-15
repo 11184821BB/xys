@@ -1,0 +1,128 @@
+/*============================main==========================*/
+main{
+    overflow: hidden;
+    padding: 30px 105px 30px 95px;
+}
+main .left{
+    padding-right: 20px;
+    width: 50%;
+    padding-bottom: 20px;
+}
+main .left .account{
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+main .left .account p{
+    color: #393333;
+    font-size: 14px;
+    line-height: 50px;
+}
+main .left .account span{
+    display: inline-block;
+    width: 156px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    font-weight: 1000;
+}
+main .left .account span:nth-of-type(1){
+    background: #627aad;
+}
+main .left .account span:nth-of-type(2){
+    background: #cf5940;
+}
+main .left .message{
+    overflow: hidden;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #ccc;
+}
+main .left .message p{
+    padding: 20px 0;
+    font-size: 14px;
+}
+main .left .message .inputBox dl{
+    margin-top: 6px;
+}
+main .left .message .inputBox dl dt{
+    line-height: 52px;
+    font-weight: 1000;
+}
+main .left .message .inputBox dl dd input{
+    width: 100%;
+    height: 33px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+main .left .send span{
+    display: block;
+    width: 108px;
+    height: 34px;
+    background: #5bc0de;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+/*=========================right=========================*/
+main .right{
+    width: 50%;
+    overflow: hidden;
+}
+main .right .admin{
+    border: 1px solid #bce8f1;
+    background: #d9edf7;
+    color: #317497;
+    padding: 20px 13px;
+    border-radius: 5px;
+}
+main .right .admin p{
+    line-height: 26px;
+}
+main .right .admin p:nth-of-type(2){
+    font-weight: 1000;
+    color: #31708f;
+}
+main .right .admin ul{
+    padding-left: 17px;
+}
+main .right .admin ul li{
+    line-height: 26px;
+    list-style: disc;
+}
+main .right .use{
+    background: #dff0d8;
+    border: 1px solid #d6e9c6;
+    border-radius: 5px;
+    color: #3c763d;
+    padding: 36px 15px;
+    margin-top: 20px;
+}
+main .right .use p{
+    font-weight: 1000;
+    line-height: 26px;
+}
+main .right .use ul{
+    padding-left: 17px;
+}
+main .right .use ul li{
+    color: #40763d;
+    line-height: 26px;
+    list-style: disc;
+}
+
+
+@media screen and (max-width: 990px){
+    main .left{
+        width: 100%;
+        padding-right: 0px;
+    }
+    main .right{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 760px){
+    main{
+        padding: 10px 20px;
+    }
+}
